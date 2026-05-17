@@ -12,11 +12,6 @@ mlruns/
 mlflow.db
 mlflow.db-journal
 
-# Large local datasets (optional - usually better to keep these local)
-train.csv
-current.csv
-stress.csv
-
 # Compiled artifacts and logs
 *.pkl
 *.html
