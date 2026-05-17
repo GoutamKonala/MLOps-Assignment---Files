@@ -1,0 +1,23 @@
+# Virtual Environment (The culprit for the 10k changes)
+mlops_env/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# MLflow and local databases
+mlruns/
+mlflow.db
+mlflow.db-journal
+
+# Large local datasets (optional - usually better to keep these local)
+train.csv
+current.csv
+stress.csv
+
+# Compiled artifacts and logs
+*.pkl
+*.html
+*.png
